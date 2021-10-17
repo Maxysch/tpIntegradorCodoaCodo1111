@@ -1,0 +1,311 @@
+*{
+    box-sizing: border-box;
+    font-family:Arial;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7%;
+    background-color: rgb(52, 58, 64);
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items:stretch
+}
+
+header img{
+    height: 80px;
+    width: auto;
+}
+
+h1{
+    margin-top: 25px;
+    color: white;
+    font-size: 26px;
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+}
+
+a{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(156, 157, 155);
+}
+
+.white{
+    color: white;
+}
+
+.green{
+    color: rgb(58, 156, 74);
+}
+
+main h2{
+    font-size: 35px;
+}
+
+.conferencia{
+    background-image: url(imagenes_integrador_front/ba1.jpg);
+    background-size:100%;
+    height: 800px;
+    position: relative;
+}
+
+.conferencia .filtro{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.conferencia .contenido{
+    position: relative;
+    width: 35%;
+    top: 400px;
+    left: 60%;
+    color: white;
+    text-align: end;
+    line-height: 25px;
+}
+
+.conferencia .contenido h2{
+    margin-bottom: 10px;
+}
+
+.btn-outline-light{
+    width:160px;
+}
+
+.btn-outline-light:nth-of-type(2){
+    background-color: rgb(59, 162, 75);
+    border-style: none;
+    margin-left: 5px;
+}
+
+.titulo{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.presentadores{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.presentador{
+    width: 20%;
+    margin: 0 25px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.presentador img{
+    
+    width: 100%;
+    height: auto;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.presentador .descripcion{
+    border-style: solid;
+    border-color: rgb(235, 235, 235);
+    border-width: 1px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px;
+}
+
+.presentador .descripcion button{
+    margin-top: 7px;
+    margin-bottom: 3px;
+}
+
+.presentador .descripcion p{
+    margin: 7px 0;
+}
+
+.lugarYFecha{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.lugarYFecha img{
+    width: 50%;
+    height: auto;
+}
+
+.lugarYFecha .descricpion{
+    height: auto;
+    background-color: rgb(53, 58, 64);
+    padding: 15px 10px;
+}
+
+.lugarYFecha h2{
+    color: white;
+}
+
+.lugarYFecha p{
+    color: white;
+}
+
+.lugarYFecha p{
+    margin: 20px 0;
+    line-height: 25px;
+}
+
+.lugarYFecha button{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-style: solid;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+}
+
+.orador{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.orador .titulo{
+    margin-top: 25px;
+    width: 50%;
+    text-align: center;
+}
+
+
+.orador div h2{
+    line-height: 50px;
+}
+
+.subrayado{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.orador form{
+    width: 60%;
+    padding: 0 5%;
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pepito{
+    width:47%;
+    margin: 15px 0;
+}
+
+input{
+    width:100%;
+    height: 35px;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: rgb(228, 232, 234);
+    border-width: 2px;
+    padding: 8px;
+}
+
+input::placeholder{
+    font-size: 16px;
+}
+
+textarea{
+    width: 100%;
+    height: 120px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(228, 232, 234);
+    border-width: 2px;
+    padding: 12px;
+    margin-bottom: 3px;
+}
+
+textarea::placeholder{
+    font-size:22px;
+}
+
+form p{
+    font-size: 14px;
+    color: rgb(142, 125, 129);
+}
+
+.submit{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(151, 197, 76);
+    color: white;
+    font-size: 22px;
+    border-radius: 5px;
+    margin: 0 0 15px 0;
+    
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(40, 78, 104);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer nav{
+    width: 80%;
+    height: 100%;
+
+}
+
+footer ul{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer li{
+    width: 10%;
+    line-height: 25px;
+}
